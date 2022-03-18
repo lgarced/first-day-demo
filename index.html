@@ -1,44 +1,78 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Student Bio</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="style.css" />
-    <title>Student Bio Liberato</title>
   </head>
-
   <body>
-    <!-- Site Header -->
-    <header>
-      <!--The h1 tag should be used for the most important heading-->
-      <h1>Student Bio</h1>
+    <header class="nav-header">
+      <h1><a href="./index.html" id="logo">Garced Dev.</a></h1>
+        <div class="menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
     </header>
+    <main>
+    <section class="jumping slide">
+        <div class="mypic"> 
+            <img src="images/MeUtah.jpg" alt="Me jumping in Zion National Park">
+            <div class="reveal-image"> </div>
+        </div>
+        <div class="adventure-dec">
+          <div class="title">
+             <h2> Adventure with me<span class="herel"> Here to learn</span></h2>
+             <div class="title-swipe t-swipe1"</div>
+             </div>
+             <p>I am passionated about data. I love Data Engineering and computer science. I have been working with T-SQL, building pipelines and other fun stuff
+              for awhile. I recently started studying at UCI Bootcamp to expand my knowledge in other languages and in how to build my own website 
+              without using WIX. I am looking foward the next few months and the learning adventure. </p>
+            <a class="adventure explore">Adventure</a>
+        <div class="reveal-text"> </div>
+        </div>
 
-    <!-- Section 1: Bio -->
-    <section>
-           <div class="container">
-             <h2>Liberato Garced Torres</h2>
-               <!-- Image -->
-           <img src="images/MeUtah.jpg" alt="A picture of me jumping in Zion National Park"/>
-             <!-- Paragraph with embedded link -->
-            <p>I am passionated about data. I love Data Engineering and computer science. I have been working with T-SQL, building pipelines and other fun stuff
-          for awhile. I recently started studying at UCI Bootcamp to expand my knowledge in other languages and in how to build my own website 
-          without using WIX. I am looking foward the next few months and the learning adventure. 
-          </p>
+    </section>
+    <section class="friends slide">
+        <div class="mypic"> 
+            <img src= "./images/friends.jpg" alt="Me in China with a Yao people women group.">
+             <div class="reveal-image"> </div>
+        </div>
+        <div class="adventure-dec">
+          <div class="tittle">
+              <h2> Adventure with me <span  class="heretolearn">Here to learn</span></h2>
+              <div class="title-swipe t-swipe2"></div>
+              <p>This picture was taken in 2018. I travlled to over 10 cities in China. I had an amazing experience with the Yao People. 
+                  They have delicouse food and great hospitality. </p>
+            <a class="adventure explore">Adventure</a>
+            <div class="reveal-text"> </div>
         </div>
     </section>
-
-    <!-- Section 2: Contact Info -->
-    <section>
-      <h2>Contact Info</h2>
-      <!-- Unordered list -->
-      <ul>
-        <li><strong>Email:</strong> <a href="#">liberato@garced.dev</a></li>
-        <li><strong>Github:</strong> <a href="#">https://github.com/lgarced</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">Under Construction</a></li>
-      </ul>
-    </section>
+   </main>
+   <nav class"nav-bar">
+           <ul class="contact-links">
+             <h3><strong>Email:</strong> <a href="#">liberato@garced.dev</a></h3>
+             <h3><strong>Github:</strong> <a href="#">https://github.com/lgarced</a></h3>
+             <h3><strong>Portfolio:</strong> <!--a href="#"-->Under Construction</#a></h3>
+          </ul>
+        <div class="contact">
+            <h2> Stay in Touch</h2>
+            <p> Want to learn more about my project?
+                Here to learn!
+            </p>
+        </div>
+    </nav>
+    <div class="cursor"></cursor>
+         <span class="cursor-text"><span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <script 
+      src=https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js
+    <script src="script.js"></script>
   </body>
-   <script src="script.js"></script>
 </html>
